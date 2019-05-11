@@ -6,6 +6,9 @@ gamePlaying;
 
 startTheGame();
 
+document.querySelector('.btn-instructions').addEventListener('click',function() {
+    alert("This is The Dice Game! \n The goal of this game to be the first player to reach 21 \nRoll the dice and add up your score \nIf you roll a 1 your score is reduced to 0\nBut don't worry, there is still a saftey net, the saftey net is 15!\nRoll away and enjoy!");
+})
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
 	if(gamePlaying) {
@@ -25,7 +28,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 			document.querySelector('#current-' + activePlayer).textContent = roundScore;
 		} else{
             safetyScore();
-            
+
 			nextPlayer();
 
 			alert('You rolled a 1 this roll, points lost and next players turn. GOOD LUCK NEXT TIME!')
