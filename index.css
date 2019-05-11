@@ -1,0 +1,80 @@
+body {
+    background: #000;
+    text-align: center;
+}
+body * {
+    font-family: fantasy;
+}
+.game_title {
+    color: #fff;
+    font-size: 3rem;
+}
+.player_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+    text-align: center;
+    font-size: 2.5rem;
+
+    margin-bottom: -9rem;
+}
+
+.player1_section {
+    color: #fff;
+    width: 100%;
+
+    height: 50vh;
+}
+.player2_section {
+    color: #fff;
+    width: 100%;
+
+    height: 50vh;
+}
+
+.game_buttons {
+    text-align: center;
+
+    max-width: 100%;
+
+    padding-top: 2rem;
+}
+.game_buttons button {
+    background: rgba(255, 0, 0, 1);
+    border: 2px solid #fff;
+
+    color: #fff;
+    
+    max-width: 100%;
+    width: 100px;
+
+    padding: 20px;
+
+    transition: all 1s ease-in-out;
+}
+.game_buttons button:hover {
+    background: rgba(255, 0, 0, .5);
+    border: 2px solid #fff;
+
+    color: #fff;
+
+    transition: all 1s ease-in-out;
+}
+.dice-Section {
+    text-align: center;
+
+    height: 200px;
+}
+
+.dice {
+    max-width: 100%;
+    width: 150px;
+
+    margin: auto;
+}
+.player-current-score {
+    padding-bottom: 15px;
+}
+.active .player-current-box:after {
+    content: "\2604";
+}
