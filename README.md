@@ -1,6 +1,6 @@
 # The_Dice_Game
 
-This is The Dice Game!
+This is Dice Royal!
 
 The goal of this game to be the first player to reach 21
 
