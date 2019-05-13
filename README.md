@@ -1,4 +1,4 @@
-# The_Dice_Game
+# Dice Royal
 
 This is Dice Royal!
 
